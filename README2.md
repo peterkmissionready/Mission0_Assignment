@@ -29,7 +29,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div align="left">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -71,8 +71,9 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-  <img src="./screenshot.jpg"></img>
-My website focuses on selling cars. I have used React to create my website.
+  [[images/images/myimage.jpg]]
+  <img src="../../screenshot.jpg"></img><!-- How do I -->
+My website focuses on selling cars. I have used React to create my website. In this website, you can see that I tried to address the responsiveness. I also try to make website beautiful with a nice oval shaped searchbox. Overall, I used HTML, CSS and some React- one of the libraries of JavaScript I believe to make this website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,16 +81,7 @@ My website focuses on selling cars. I have used React to create my website.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,40 +95,22 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You should already have NodeJS installed in your computer. If you don't, install your version at https://nodejs.org/en.
+
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Extract the Mission0_Assignment-main folder to a local directory of your choice.
+2. Extract the node_modules folder inside the node_modules.zip file into the Mission0_Assignment-main folder you extracted previously.
+3. Open this Mission0_Assignment-main folder using Visual Studio Code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Assuming you have NodeJS installed, type npm start on the terminal. You will be able to see the work I've done so far for this Mission 0 project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,13 +119,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [28/04/2023] Uploaded relevant files for this Mission 0 Assignment.
+- [28/04/2023] Borrowed template for this repository.
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -189,9 +158,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - Peter Kim - peterk@missionreadyhq.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/peterkmissionready/Mission0_Assignment](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
