@@ -109,7 +109,7 @@ You should already have NodeJS installed in your computer. If you don't, install
 ## Usage
 
 
-Assuming you have NodeJS installed, type npm start on the terminal. You will be able to see the work I've done so far for this Mission 0 project.
+Assuming you have NodeJS installed, type `npm start` on the terminal. You will be able to see the work I've done so far for this Mission 0 project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
