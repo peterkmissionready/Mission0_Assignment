@@ -1,7 +1,7 @@
-#Author
-By Peter Kim
-peterk@missionreadyhq.com
-27/04/2023
+#Author<br/>
+By Peter Kim<br/>
+peterk@missionreadyhq.com<br/>
+27/04/2023<br/>
 
 <h1>Mission 0 Assignment</h1>
 A website with home page listing a product of my choice.<br/>
