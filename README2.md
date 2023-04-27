@@ -69,10 +69,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-  [[images/images/myimage.jpg]]
-  <img src="../../screenshot.jpg"></img><!-- How do I -->
+</br>
+  <img src="images/screenshot.jpg" style="width:80vw;height:60vw"></img><br/></br>
 My website focuses on selling cars. I have used React to create my website. In this website, you can see that I tried to address the responsiveness. I also try to make website beautiful with a nice oval shaped searchbox. Overall, I used HTML, CSS and some React- one of the libraries of JavaScript I believe to make this website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
