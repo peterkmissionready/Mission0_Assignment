@@ -1,0 +1,230 @@
+body{
+    overflow-x:hidden;
+}
+.app {  
+    /* display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    position:relative;
+    
+    /* top:300px; */
+}
+
+.topBanner{
+    position:absolute;
+    left:-1vw;
+    top:-3vw;
+    width:102vw;
+    height:5vw;
+    z-index:3;
+    background-color: black;
+    float:right;
+}
+
+.tableStyle{
+    float:right;
+    padding-right:4vw
+}
+.divInTopBanner{
+    position:relative;
+    top:2vw;
+    width:9vw;
+    height:100%;
+    background-color:black;
+    /* color:white; */
+    /* font-weight:bold; */
+    right:0;
+    text-align:left;
+
+
+
+}
+.divInTopBanner.LogInButton{
+    background-color:white;
+    color:black;
+}
+.menuItem{
+    color:white;
+    font-weight:bold;
+    text-decoration: none;
+}
+.carItem{
+    width:29.68vw;
+    height:23.4vw;
+
+
+    /* width:400px;
+    height:300px; */
+}
+.carName{
+    font-size:1.7rem;
+
+}
+.carPrice{
+    font-size: 1.5rem;
+}
+
+.carName, .carPrice{
+    font-weight:bold;
+}
+.Car{
+    width:29.68vw;
+    height:37.69vw;
+    position:relative;
+    margin:1vw;
+    padding:0px;
+    border:1px solid black;
+    text-align:center;
+}
+
+.carDetails{
+
+    width:100%;
+    margin:1rem;
+}
+
+.featuredDisplay{
+    position:relative;
+    top: 26vw;
+    font-size:3em;
+    color:black;
+    z-index:5;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top:30vw;
+
+    /* flex-wrap: wrap; */
+    /* border:1px solid black; */
+}
+
+.innerContainer{
+    border:1px solid black;
+    /* display: table; */
+}
+.message{
+    position:relative;
+    top:15vw;
+    left:-4vw;
+    font-size:1.3em;
+    color:white;
+    font-weight:bold;
+    z-index:3;
+}
+
+.logoContainer{
+    position:absolute;
+    top:-1.6vw;
+    left:-1vw;
+    width:35vw;
+    height:24vw;
+    background-color: rgb(112, 27, 27);
+    opacity:0.7;
+    /* border:1px solid black; */
+}
+
+.searchContainer{
+    /* padding:1.5rem; */
+    position:relative;
+    top:22vw;
+    left:-1vw;
+    width:102vw;
+    height:14vw;
+
+    background-color:rgb(32, 37, 35);
+   
+    /* opacity:0.7 */
+    /* border:1px solid red; */
+}
+
+.searchCarsTextBox{
+    margin:0.5rem;
+    font-size:1.2em;
+    width:30vw;
+    background-color: #8A9292;
+    border:none;
+    outline:none;
+    /* border:1px solid green; */
+    margin-right:0;
+    vertical-align: middle;
+}
+
+.searchCarsOuterTextbox{
+    display:inline-flex;
+    
+    width:30vw;
+    align-items:center;
+    /* border:1px solid red; */
+    justify-content: center;
+    /* padding:0px; */
+    background-color: #8A9292;
+    border-radius: 1.5rem;
+  
+    /* vertical-align: middle; */
+
+}
+.searchCarsButton{
+    background-color: rgb(140, 148, 148);
+    height:35px;
+    width:35px;
+    margin-right:0.7rem;
+    opacity:1;
+    cursor:pointer;
+}
+
+.BannerImage{
+    position:absolute;
+    top:-35vw;
+    left:-1vw;
+    width:102vw;
+    height:67.9vw;
+    z-index:-1;
+}
+
+.bannerTitle{
+    color:rgba(255, 255, 255, 0.568);
+    padding:2vw 0 1vw 0;
+}
+
+.LogoImage{
+    position:absolute;
+    top:-10vw;
+    left:-3vw;
+    width:36vw;
+    height:auto;
+    z-index: 2;
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .Car{
+        /* width:100%;
+        padding-bottom:50%; */
+        width:100%;
+        height:auto;
+        min-height:100px;
+        overflow:hidden;
+        margin:1rem;
+    }
+    .carItem{
+        width:100%;
+        height:auto;
+
+    }
+
+    .container{
+        flex-wrap: wrap;
+    }
+    .carName{
+        font-size:1.5rem;
+    }
+}
