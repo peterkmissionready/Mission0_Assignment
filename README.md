@@ -71,8 +71,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 </br>
-  <img src="images/screenshot.jpg" style="width:70vw;height:52.5vw"></img><br/></br>
+  <img src="images/screenshot.jpg" style="width:70vw;height:52.5vw"></img><br/>
+  Mission 0 work.</br></br>
+  <img src="images/mission1-task5.jpg" style="width:70vw;height:52.5vw"></img><br/>
+  Mission 1 work- I added a chatbox</br></br>
 My website focuses on selling cars. I have used React to create my website. In this website, you can see that I tried to address the responsiveness. I also try to make website beautiful with a nice oval shaped searchbox. Overall, I used HTML, CSS and some React- one of the popular libraries of JavaScript I believe to make this website.
+</br></br>
+UPDATE 04/05/2023: I added a chatbox to my website. All was needed was adding a simple chatbox embed code in the index.html file, just below the <body> tag, needed to answer Task 5 of the Mission 1 Assignment.
+</br></br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,6 +126,7 @@ Assuming you have NodeJS installed, type `npm start` on the terminal. You will b
 
 - [28/04/2023] Uploaded relevant files for this Mission 0 Assignment.
 - [28/04/2023] Borrowed template for this repository.
+- [04/05/2023] Added a chatbox on this website, required for the Mission 1.
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
