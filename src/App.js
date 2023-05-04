@@ -73,7 +73,6 @@ const App = () => {
                 ))}
             </div>
 
-            <iframe class="chatbot" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/8e254033-d2d1-47e9-9910-098e9265916e"></iframe> <!--Mission 1 assignment-->
 
         </div>
     );
